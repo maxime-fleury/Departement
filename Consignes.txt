@@ -1,0 +1,67 @@
+Projet Département                  
+Projet individuel – temps estimé : 8 jours
+Technologies, outils et concepts travaillés : Photoshop + Adobe XD ou Figma, HTML, CSS, responsive design
+
+Vous allez maintenant commencer à réaliser la maquette d’un site web et ensuite de réaliser l’intégration jusqu’au côté réactif du site (responsive web design).
+
+Le thème du site est de présenter un département de France, celui de votre choix. Avant de commencer il faudra inventer le logo de votre site et trouvez un slogan. Ce logo peut être graphique ou typographique. 
+Logo et le slogan seront présents sur toutes les pages de votre site.
+Le site contiendra quatre pages :
+
+- Accueil
+- Les lieux incontournables
+- Marchés et foires
+- Actualités
+
+Contenu de la page ‘Accueil’
+V - Logo
+V- Slogan
+V - Menu pour accéder aux autres pages du site
+A - Un résumé de l’histoire du département
+A - Un petit texte sur sa situation géographique avec une image pour le situer sur une carte de France
+A - Un petit résumé sur son climat
+A - Quatre images pour mettre en avant le département
+
+Contenu de la page ‘Les lieux incontournables’
+V - Logo
+V - Slogan
+V - Menu pour accéder aux autres pages du site
+A- 10 lieux incontournable pour chaque lieu il faut : 
+A  - Le titre du lieu
+A  - L’image du lieu
+
+Contenu de la page ‘Marchés et foires’
+V - Logo
+V - Slogan
+V - Menu pour accéder aux autres pages du site
+A- Pour chaque marché ou foire il faut : 
+A  - Le nom du marché
+A  - L’adresse
+A  - Les horaires et jours d’ouvertures
+A  - Une image (Vous pouvez prendre des images fictives d’un marché)
+
+Contenu de la page ‘Actualités’
+V - Logo
+V - Slogan
+V - Menu pour accéder aux autres pages du site
+A - Afficher 6 actualités vraies ou inventées concernant le département. Pour chaque actualité il faut : 
+A   - Le titre de l’actualité
+A   - Une image liée à l’actualité
+ 
+ 
+Rappel des étapes :
+    
+
+Réaliser la maquette
+Intégrer le contenu en respectant la sémantique HTML
+Réaliser la mise en forme du contenu grâce au CSS
+Réaliser le responsive design
+
+______
+https://developer.mozilla.org/fr/docs/Learn/HTML
+https://css-tricks.com/how-to-section-your-html/
+https://validator.w3.org/
+https://developer.mozilla.org/fr/docs/Learn/CSS
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://flexboxfroggy.com/#fr
+https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries

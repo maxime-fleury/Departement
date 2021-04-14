@@ -1,0 +1,3 @@
+Bonjour, il s'emblerai que vous vous soyez perdu...
+Merci de bien vouloir retourner sur une vrai page.
+Ce n'est pas très polie de fouiller un site internet comme ça !
