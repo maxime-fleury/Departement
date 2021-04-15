@@ -116,7 +116,11 @@ aside {
   border-top: solid 50px white;
   border-left: solid 50px white;
 }
-
+.localisation{
+  position:absolute;
+  margin-top:225px;
+  margin-left:125px;
+}
 @media (max-width: 1200px) {
   body{
     display: contents;
@@ -159,6 +163,7 @@ aside {
   #nav_links a {
     display: none;
   }
+
   #burgerMenu {
     position:fixed;
     float: right;
@@ -202,6 +207,23 @@ aside {
    div.second_img{
       margin-left:600px;
    }
+   .container_block.marche_block{
+    margin-left:0px;
+  }
+  .second_text.marche_text{
+    margin-top:75px;
+  }
+  .container_block.marche_block.fix{
+    margin-left:150px;
+  }
+  .localisation{
+    position:absolute;
+   margin-top:300px;
+  }
+  .marche_container{
+    flex-direction: column;  
+    text-align: center;
+  }
 }
 
 @media (min-width: 1118px) {
@@ -298,6 +320,28 @@ h2.blue{
   text-align: justify;
   text-align-last: justify;
 }
-.second_container{
-  
+.second_img .marche_img{
+  width:325px;
+  height:300px;
+  margin-left:-400px;
+  margin-top:-25px;
+}
+.container_block.marche_block{
+  margin-left:300px;
+}
+.marche_container{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+.card img{
+  width:500px;
+  height: 400px;
+  padding:25px;
+}
+.black{
+  background-color: #101010;
+}
+.white{
+  background-color: #CCCCCC;
 }
