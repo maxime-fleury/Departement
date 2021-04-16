@@ -121,6 +121,25 @@ aside {
   margin-top:225px;
   margin-left:125px;
 }
+.black{
+  background-color: #101010;
+  width:50vw;
+}
+.white{
+  background-color: #CCCCCC;
+  width:50vw;
+}
+.black .blue:hover, .gl_background .blue:hover{
+  color:white;
+  background-color:#101010;
+}
+.white .blue:hover, .actu_block .blue:hover{
+  color:#101010;
+  background-color:#CCC;
+}
+.gl_title:hover{
+  color:#376ea0;
+}
 @media (max-width: 1200px) {
   body{
     display: contents;
@@ -223,6 +242,12 @@ aside {
   .marche_container{
     flex-direction: column;  
     text-align: center;
+  }
+  .black{
+    width:100%;
+  }
+  .white{
+    width:100%;
   }
 }
 
@@ -334,14 +359,11 @@ h2.blue{
   justify-content: center;
   text-align: center;
 }
+.card{
+  height:500px;
+}
 .card img{
   width:500px;
   height: 400px;
   padding:25px;
-}
-.black{
-  background-color: #101010;
-}
-.white{
-  background-color: #CCCCCC;
 }
