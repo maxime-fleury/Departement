@@ -18,8 +18,8 @@ require($files_path."header.php");
                     policière. L’enquête est en cours.
                 </p>
             </div>
-            <div class="second_img">
-                <img class="second_img" src="img/actu1.jpg" alt="Illustration de l'actualité 1" />
+            <div class="actu_img">
+                <img class="actu_img" src="img/actu1.jpg" alt="Illustration de l'actualité 1" />
             </div>
             <hr class="second_hr">
         </section>
@@ -33,8 +33,8 @@ require($files_path."header.php");
                     comme des conditions météorologiques<br> défavorables par exemple. »
                 </p>
             </div>
-            <div class="second_img">
-                <img class="second_img" src="img/actu2.jpeg" alt="Illustration de l'actualité 2" />
+            <div class="actu_img">
+                <img class="actu_img" src="img/actu2.jpeg" alt="Illustration de l'actualité 2" />
             </div>
             <hr class="second_hr">
         </section>
@@ -55,8 +55,8 @@ require($files_path."header.php");
                     sa fondatrice.
                 </p>
             </div>
-            <div class="second_img">
-                <img class="second_img" src="img/actu4.png" alt="Illustration de l'actualité 3" />
+            <div class="actu_img">
+                <img class="actu_img" src="img/actu4.png" alt="Illustration de l'actualité 3" />
             </div>
             <hr class="second_hr" />
         </section>
@@ -71,8 +71,8 @@ require($files_path."header.php");
                     de stupéfiants.
                 </p>
             </div>
-            <div class="second_img">
-                <img class="second_img" src="img/actu3.jpg" alt="Illustration de l'actualité 4" />
+            <div class="actu_img">
+                <img class="actu_img" src="img/actu3.jpg" alt="Illustration de l'actualité 4" />
             </div>
             <hr class="second_hr">
         </section>
@@ -90,8 +90,8 @@ require($files_path."header.php");
                     Christian Robache, maire de Montévrain
                 </p>
             </div>
-            <div class="second_img">
-                <img class="second_img" src="img/actu5.jpg" alt="Illustration de l'actualité 5" />
+            <div class="actu_img">
+                <img class="actu_img" src="img/actu5.jpg" alt="Illustration de l'actualité 5" />
             </div>
             <hr class="second_hr" />
         </section>
@@ -107,8 +107,8 @@ require($files_path."header.php");
                     pas innées. Cela s’apprend, et ça peut se faire à tous les âges.
                 </p>
             </div>
-            <div class="second_img">
-                <img class="second_img" src="img/actu6.jpg" alt="Illustration de l'actualité 6" />
+            <div class="actu_img">
+                <img class="actu_img" src="img/actu6.jpg" alt="Illustration de l'actualité 6" />
             </div>
             <hr class="second_hr" />
         </section>

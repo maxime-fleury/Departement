@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -20,7 +21,7 @@
 
 <body>
     <nav><div id="logoandslogant">
-            <img id="logo" alt="Logo de la Seine-et-Marne" src="seineetmarnelogo.png"></img>
+    <img id="logo" alt="Logo de la Seine-et-Marne" src="seineetmarnelogo.png"></img>
             <div id="slogant">77 Le département
                 <div id="slogant_petit">
                     Plus que la Seine, la Marne aussi !  

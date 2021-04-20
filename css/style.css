@@ -145,15 +145,16 @@ aside {
     display: contents;
   }
   .container {
+    
     flex-direction: column-reverse;
     align-items: center;
   }
   .sl {
-    width: 430px;
+    width: 330px;
     margin-left: 10px;
   }
   .gl_background {
-    width: 430px;
+    width: 330px;
     border-top: solid 1px #376ea0;
   }
   #pictures {
@@ -177,78 +178,6 @@ aside {
 }
 #nav_links_mobile{
   display:none;
-}
-@media (max-width: 1118px) {
-  #nav_links a {
-    display: none;
-  }
-
-  #burgerMenu {
-    position:fixed;
-    float: right;
-    margin: 0;
-    padding: 0;
-    margin-top: -150px;
-    right: 0; 
-  }
-  #nav_links_mobile{
-    display:flex;
-    padding:10px;
-    opacity:0.85;
-    flex-direction: column;
-    position:fixed;
-    right:0;
-    background-color:#101010;
-  }
-
-  #slogant {
-    margin-left: -40px;
-    font-size: 16px;
-  }
-  #slogant_petit {
-    margin-left: 0px;
-    font-size: 14px;
-  }
-  #left,#right {flex-direction:column-reverse;}
-  .second_text{
-    display:none;
-  }
-  section.gl_background{
-    display:flex;
-    text-align:center;
-    flex-wrap:nowrap;
-  }
-  h2.blue{
-   font-size:18px;
-   display: contents;
-  }
-
-   div.second_img{
-      margin-left:600px;
-   }
-   .container_block.marche_block{
-    margin-left:0px;
-  }
-  .second_text.marche_text{
-    margin-top:75px;
-  }
-  .container_block.marche_block.fix{
-    margin-left:150px;
-  }
-  .localisation{
-    position:absolute;
-   margin-top:300px;
-  }
-  .marche_container{
-    flex-direction: column;  
-    text-align: center;
-  }
-  .black{
-    width:100%;
-  }
-  .white{
-    width:100%;
-  }
 }
 
 @media (min-width: 1118px) {
@@ -325,32 +254,25 @@ margin-bottom:50px;
   flex-direction: column;
 
 }
-
-.second_img{
-  display: block;
-  margin-left:-300px;
-  margin-top:-10px;
-  width:220px;
-  height:220px;
+.second_img .marche_img{
+  width:400px;
+  margin-left:-600px;
 }
+
 h2.blue{
   width:850px;
+  margin-top:50px;
 }
 .second_text{
   position:absolute;
   margin-left:150px;
 }
 .marche_text{
-  display: block; /* inline-block; */
+  display: block;
   text-align: justify;
   text-align-last: justify;
 }
-.second_img .marche_img{
-  width:325px;
-  height:300px;
-  margin-left:-400px;
-  margin-top:-25px;
-}
+
 .container_block.marche_block{
   margin-left:300px;
 }
@@ -366,4 +288,120 @@ h2.blue{
   width:500px;
   height: 400px;
   padding:25px;
+}
+.actu_img{
+  width:300px;
+  height:300px;
+  margin-left:-290px;
+}
+@media (max-width: 1118px) {
+  #nav_links a {
+    display: none;
+  }
+  #pictures{
+    margin-left:-50px;
+  }
+  #burgerMenu {
+    position:fixed;
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-top: -150px;
+    right: 0; 
+  }
+  #nav_links_mobile{
+    display:flex;
+    padding:10px;
+    opacity:0.85;
+    flex-direction: column;
+    position:fixed;
+    right:0;
+    background-color:#101010;
+  }
+
+  #slogant, #slogant_petit  {
+    display:none;
+  }
+  #carte{
+    width:90%;
+  }
+  #left,#right {flex-direction:column-reverse;}
+  .second_text{
+    display:none;
+  }
+  #second_container{
+    width:85vw;
+  }
+  .container_block{
+   width:85vw;
+  }
+
+  .actu_img{
+    margin:0;
+    height:300px;
+  }
+  .gl_background{
+    display:flex;
+    text-align:center;
+    flex-wrap:nowrap;
+    width: 100vw;
+  }
+  section .gl_background{
+    display:flex;
+    text-align:center;
+    flex-wrap:wrap;
+    width:85vw;
+  }
+  .sl{
+    margin-left:0;
+  }
+    section hr {
+      display:none;
+    }
+  h2.blue{
+   font-size:20px;
+   display: contents;
+    margin:0;
+    margin-top:-50px;
+  }
+
+
+  .container_block.marche_block{
+    margin-left:-100px;
+    margin-top:-420px;
+    text-align-last:center;
+  }
+  .second_text.marche_text{
+    display:block;
+    margin-top:175px;
+    margin-left:35%;
+  }
+
+  .marche_container{
+    flex-direction: column;  
+    text-align: center;
+  }
+  .black{
+    width:100%;
+  }
+  .white{
+    width:100%;
+  }
+  .card{
+    height:270px;
+  }
+  .card img{
+    width:250px;
+    height: 150px;
+    padding:25px;
+  }
+  .second_img.marche_img{
+    display:none;
+    }
+.localisation{
+  margin-top:50px;
+  margin-left:35%;
+}
+
+
 }

@@ -15,17 +15,15 @@ require($files_path."header.php");
                 subtropicaux
             </div>
         </section>
-        <aside>
-            <object data="img/carte_seine_et_marne.svg" width="500" height="550" type="image/svg+xml">
-                <img src="img/carte_seine_et_marne.png"
+        <section>
+                <img id="carte" src="img/carte_seine_et_marne.png"  
                     alt="La carte de France en bleu avec en rouge la Seine-et-Marne" />
-            </object>
             <div class="gl_background sl">
                 Situé ici en rouge et comme son nom l’indique le <span class="blue">département</span> de la <span
                     class="blue">Seine et Marne</span> est traversés par la <span class="blue">Seine</span> (fleuve) et
                 la <span class="blue">Marne</span> (rivière).
             </div>
-        </aside>
+        </section>
     </div>
     <div class="container">
         <div id="pictures">
