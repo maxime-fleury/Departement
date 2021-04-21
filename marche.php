@@ -39,7 +39,7 @@ require($files_path."header.php");
             </p>
         </div>
         <div class="second_img marche_img">
-            <img class="second_img marche_img" src="img/marche4.jpg" alt="Illustration du quatrième marche" />
+            <img class="second_img marche_img" src="img/marche2.jpg" alt="Illustration du quatrième marche" />
         </div>
         <hr class="second_hr">
     </section>
